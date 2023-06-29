@@ -2,7 +2,6 @@
   "http.proxySupport": "off",
   "http.proxyStrictSSL": false,
   "name": "site",
-  "homepage": "https://igorpopovich.github.io/Haulex-Site/",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
