@@ -1,0 +1,19 @@
+{
+  "http.proxySupport": "off",
+  "http.proxyStrictSSL": false,
+  "name": "site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "firebase deploy --only hosting",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss build -i src/main.css -o public/styles.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2"
+  }
+}
